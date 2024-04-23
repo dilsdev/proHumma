@@ -5,7 +5,7 @@
     <p align="right">
         <a href="logout" class="btn btn-danger">Logout</a>
     </p>
-    Selamat datang {{ auth()->user()->name }}
+    Selamat siang {{ auth()->user()->name }}
 </div>
 
 @endsection
